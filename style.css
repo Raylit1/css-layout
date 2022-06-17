@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca:wght@700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+   text-align: left;
+  }
+
+  .img{
+    margin: 30px;
+  }
+
+  
+
+  header {
+    height: 70px;
+    border-bottom: 1px gray solid;
+padding: 15px;
+  }
+  
+  header h1 {
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+  
+    
+}
+
+  h1 a:link {
+    padding: 0% 2%;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    
+  }
+  
+  h1 a:visited {
+    color: hsl(179, 100%, 13%);
+  }
+  
+  h1 a:hover {
+    color: hsl(184, 93%, 30%);
+  }
+
+  .container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 70px auto 40px;
+     height: 560px;
+    }
+
+ h1 p
+  
+  .last-content {
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  p {
+    font-family: "Lexend Deca", Calibri, sans-serif;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-bottom: 50px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+  
+  
+}
+  
+  h1 {
+    font-family: "Big Shoulders Display", Impact, cursive;
+    color: hsl(0, 0%, 95%);
+    padding: 40px;
+
+  }
+  
+  .more:link {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 15px 29px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    margin: 45px
+    }
+  
+  .more:hover {
+    border: 2px hsl(0, 0%, 95%) solid;
+  }
+  
+  .first-content {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .first-content .more {
+    color: hsl(31, 77%, 52%);
+     
+  }
+  
+  .first-content .more:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+  }
+  
+  .middle-content {
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .middle-content .more {
+    color: hsl(184, 100%, 22%);
+  }
+  
+  .middle-content .more:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+  }
+  
+  .last-content {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .last-content .more {
+    color: hsl(179, 100%, 13%);
+
+  }
+  .last-content .more:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+  }
+  
+  /* RESPONSIVENESS FOR INDEX.HTML */
+  @media screen and (max-width: 1100px) {
+    header h1 {
+      margin: 10px auto;
+      width: 50%;
+    }
+    h1 a:link {
+      padding: 0% 7%;
+    }
+    .container {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: 50px auto;
+    }
+    .content {
+      padding: 60px;
+      margin: 0px auto;
+      color: hsla(0, 0%, 100%, 0.75);
+    }
+    .first-content {
+      border-radius: 10px 10px 0px 0px;
+    }
+    .last-content {
+      border-radius: 0px 0px 10px 10px;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+      margin-bottom: 30px;
+
+  }
+  
+
+
+  
+  
